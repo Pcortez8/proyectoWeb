@@ -20,14 +20,14 @@
     </colgroup>
     <thead>
         <tr>
-            <th><h2><img src="portafolio.jpg" alt="foto perfil"width="15%" height="15%"> </h2></th>
-            <th><h2><u>Datos Personales</u>
+            <th><h><img src="portafolio.jpg" alt="foto perfil"width="15%" height="15%"> </h></th>
+            <th><h2><u>Datos Personales</u></h2>
                 <ul type="circle">
                 <li>Fecha Nacimiento: 29/11/82</li>
                 <li>Segurola y Habana</li>
                 <li>Tel: +54 11 4347 5050</li>
                 <li>Email: pcortezgil@hipotecario.com.ar</li>
-            </ul></h2></th>
+            </ul></th>
         </tr>
     </table>
 </section>  
@@ -53,17 +53,9 @@
 
     <center><table style="width:65%">
         <tr>
-            <td><img src="logo-facebook.png" width="25" alt="facebook.com/Patricio-Cortez"></td>
-            <td><h2>facebook.com/Patricio-Cortez</h2></td>
-            
-            <td><img src="logo-instagram.jfif" width="25" alt="instagram.com/Patricio-Cortez"></td>
-            <td><h2>instagram.com/Pcortez8</h2></td>
-            <td><img src="logo-twitter.png" width="25" alt="twitter.com/pcortez8"></td>
-            <td><h2>twitter.com/Pcortez8</h2></td>
-            
-
-            
-
+            <td><a href="https://es-la.facebook.com/people/Patricio-Cortez/100070133996316/" target="_blank"><h2><img src="logo-facebook.png" width="25" alt="facebook.com/Patricio-Cortez"></img> <br> Facebook <br> Patricio Cortez</h2></a></td>
+            <td><a href="https://www.instagram.com/pcortez8/?hl=es-la" target="_blank"><h2><img src="logo-instagram.jfif" width="25" alt="facebook.com/Patricio-Cortez"></img> <br>  Instagram <br> Pcortez8</h2></a></td>
+            <td><a href="https://mobile.twitter.com/patocortez8/with_replies" target="_blank"><h2><img src="logo-twitter.png" width="25" alt="facebook.com/Patricio-Cortez"></img> <br> Twitter <br> Patocortez8</h2></a></td>       
         </tr>
     </table></center>
 
@@ -72,15 +64,22 @@
             <legend><h2>Deja tu mensaje</h2></legend>     
          <div>   
         <h3><label for="name">Nombre</label>
-        <input type="text" id="name"></h3>
+        <input type="text" id="name" placeholder="introduce tu nombre" required></h3>
     </div>
     <div>
         <h3><label for="surname">Apellido</label>
-        <input type="text" id="surname"></h3>
+        <input type="text" id="surname" placeholder="introduce tu apellido" required></h3>
+    </div>
+    <div>
+        <h3><label for="email">Email</label>
+        <input type="email" id="Email" placeholder="correo electronico" required></h3>
     </div>
         <div>    
-        <label for="message">Mensaje</label>
-        <textarea name="" id="message" cols="70" rows="10"></textarea>
+        <h3><label for="message">Mensaje</label></h3><br>
+        <textarea name="" id="message" cols="70" rows="10" required></textarea>
+    </div>
+    <div>
+        <input type="submit" value="Enviar"><input type="reset">
     </div>
         
         
